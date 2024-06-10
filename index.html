@@ -1,55 +1,65 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>10.vježba</title>
-<style>h1 {color:hotpink; font-size: 40pt;font-weight:bold; font-family:Georgia;}
-h2 {color:pink}
-body {background-color:#c8f6f9}
-h2 {font-size: 25pt;}
-uvod {font-family:Georgia; font-size:25pt;}
-#uvod {font-family:Georgia;}
-#omeni {margin-top:40pt; margin-right:250pt; font-family:Georgia;}
-#putovanje {margin-top:30pt;fon-family:Georgia;font-size:13pt;}
-#cimeri {margin-top:40pt; margin-right:250pt; font-family:Georgia;}
-#putovanje {margin-top:30pt;fon-family:Georgia;font-size:13pt;}
-#najavacitata {font-family:Georgia; font-size:15pt;margin-left:150pt;margin-top:30pt;color:purple;}
-#citat {font-family:Georgia; font-size:15pt;margin-left:75pt;margin-top:25pt; border: 2pt solid purple;margin-right:450pt;background-color:lightpink;}
-body {background-image: url("https://www.boatus.com/-/media/expert-advice-archive/2018/april/cirrus-clouds.ashx?la=en&hash=18F09F936A226DB2B995A59A674B57AA");background-repeat:no-repeat;background-size:cover;}
-</style>
-  </head>
-  <body>
-    <h1>Angela Potušek</h1>
-    <h2> Stranica koja opisuje moj lik i život.</h2>
-    <p id="uvod"> Za više sadržaja posjetite:</p>
+<html> 
+<head>
+<title> 3.projektni zadatak</title>
+<style>
+   @font-face {
+    font-family: "customfont";
+    src:url("angelapotusekvj-Regular.ttf") format("truetype");}
+    #naslov {
+    font-family: angelapotusekvj;
+    text-align: center;
+    margin-top: 30pt;
+    font-size: 30pt;
+    }
+  body {
+    background-image: url("https://i.etsystatic.com/6246936/r/il/bd1cdc/1686858646/il_794xN.1686858646_2hhc.jpg");background-repeat:no-repeat;background-size:cover;
+  }
+  #podnaslov {
+    text-align: center;
+    margin-top: 40pt;
+    background-color: goldenrod;
+    font-family: calibri;
+  }
+  #uvod {
+    text-align: center;
+    margin-top: 25pt;
+    font-size: 18pt;
+    font-family: calibri;
+  }
+  ul {	
+			padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+            margin-top: 60pt;
+			width: 300px;
+			} 
+	li {	display:inline; 
+			background-color: darkgoldenrod;
+			padding:20px;
+			border: 2px solid darkgoldenrod;
+		}
+	li:active {background-color:darkgoldenrod;} 
+		
+	li a {	color:white; 
+			font-family: Calibri;
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}
+    </style>
+</head>
+<body> 
+    <h1 id="naslov"> Angela Potušek </h1>
+    <h2 id="podnaslov"> Kolegij Digitalni Multimedij 1</h2>
+    <p id="uvod"> Ja sam <span style="color: orangered">Angela Potušek </span>. Dobrodošli na moje stranice gdje ćete se upoznati sa mnom, mojim radom i napretkom na kolegiju DM1. </p>
     <nav>
-    <ul>
-      <li><a href="https://www.vogue.com/">Vogue</a></li>
-      <li><a href="angelapotusekstranicamultimedija.html">Moja stranica</a></li>
-      <li><a href="seminar.pdf">Moj seminar</a></li>
-      </ul>
+        <ul id="lista">
+            <li><a href="omeni.html">O meni</a></li>
+            <li><a href="vjezbe.html">Vježbe</a></li>
+            <li><a href="video.html">Video</a></li>
+        </ul>
     </nav>
-    <p id="omeni">
-      Zovem se <b>Angela Potušek.</b> Rođena sam 03.02.2001. godine u Šibeniku. Roditelji mi se zovu <i>Boris</i> i <i>Snježana</i>, te imam sestru <i>Doris</i> i brata <i>Gorana</i>. Studiram <mark>Grafički dizajn</mark> u Zagrebu, a prije toga sam studirala u Rijeci i Splitu. Imam psa <i>Ollija</i> koji ima 6 mjeseci. Jako volim svoju obitelj i prijatelje te provoditi vrijeme s njima.Također, volim putovati,planinariti,slikati,čitati i pisati.</p>
-    <ol id="putovanje"> <span style="background-color:pink;">Mjesta na koja sam putovala</span>
-      <li>Švedska</li>
-      <li>Bosna i Hercegovina</li>
-      <li>Srbija</li>
-      <li>Slovenija</li>
-      <li>Nizozemska</li>
-      <li>Njemačka</li>
-      <li>Belgija</li>
-    </ol>
-    <ul id="cimeri"> <span style="background-color:pink;">Moji dragi cimeri</span>
-     <li> Doris </li>
-     <li>Željka</li>
-     <li>Iva</li>
-     <li>Ollie</li>
-    </ul>
-    <p id="najavacitata"> CITAT ZA KRAJ: </p>
-    <blockquote id="citat">
-      Postoje tri rješenja za svaki problem;<br/>prihvati ga, promijeni ga ili ga ostavi.</br>Ako ga ne možeš prihvatiti, promijeni ga.</br>Ako ga ne možeš promijeniti,ostavi ga.</br>
-<small>-Buddha</small>
-</blockquote>
-    
-      </body>
-</html>
+
+</body>
+</html> 
